@@ -1,3 +1,4 @@
+# Connecting to MongoDB using python
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
@@ -14,3 +15,5 @@ try:
         print(db_name)*/''' #once sucessfully established connection
 except Exception as e:
     print(e)
+
+# End
